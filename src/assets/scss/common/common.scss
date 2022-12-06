@@ -1,0 +1,25 @@
+.easy-pick-btn-wrap {
+  ul {
+    li {
+      padding: 3px 0 3px 0;
+    }
+  }
+
+  .btn {
+    width: 70px !important;
+
+    &.no-fix {
+      width: auto !important;
+    }
+
+    &.xs {
+      width: 39px !important;
+      height: 16px;
+      line-height: 16px;
+      padding: initial;
+      letter-spacing: 0;
+      color: #666666;
+      min-width: initial;
+    }
+  }
+}
